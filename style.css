@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    background-color: aqua;
+    height: 700px;
+    border: 2px solid black;
+}
+
+img {
+
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+}
