@@ -18,9 +18,15 @@
     font-size: 2rem;
 }
 
+.navbar a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .navbar img {
-    width: auto;
     height: 90%;
+    width: auto;
     border-radius: 100px;
 }
 
@@ -30,6 +36,12 @@
 }
 
 .links a {
-    text-decoration: none;
     color: white;
+    font-size: 2rem;
+}
+
+.links a:hover,
+.navbar a:hover img {
+    opacity: 0.8;
+    cursor: pointer;
 }
