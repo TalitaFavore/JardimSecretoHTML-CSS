@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8DAA81;
+    height: 6rem;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.navbar img {
+    width: auto;
+    height: 90%;
+    border-radius: 100px;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
